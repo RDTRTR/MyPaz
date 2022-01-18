@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 30605
+  controlID: 872
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 30660
+  controlID: 877
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 30661
+  controlID: 878
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,7 +399,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1e94ffff8894ffff9a94ffffac94ffffbe94ffffd094ffffe294ffff4095ffff4295ffffa29cffff049fffff82a5ffff1cacffff52b2ffff64c4ffff54caffff88d0ffff32d8ffffb6d8ffff00deffff9cdeffffb2e2ffff0ae3ffff9aeaffffe0eaffff2cebffff50f2ffff52fbffff0c5d0000fe5e0000
+      m_ExpandedIDs: 52fbffff9c3d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -602,22 +602,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Material
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/Material
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\GA3\Desktop\FukuokaGameTaishou\MyPazPaz
+  m_LastProjectPath: C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 133}
-    m_SelectedIDs: 8e410000
-    m_LastClickedID: 16782
-    m_ExpandedIDs: 00000000324100003441000036410000384100003a4100005841000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: bc3e0000
+    m_LastClickedID: 16060
+    m_ExpandedIDs: 00000000bc3e0000be3e0000c03e0000c23e0000c43e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -645,7 +645,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000324100003441000036410000384100003a41000000ca9a3b
+    m_ExpandedIDs: 00000000bc3e0000be3e0000c03e0000c23e0000c43e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
