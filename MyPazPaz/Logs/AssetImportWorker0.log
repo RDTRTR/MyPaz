@@ -15,11 +15,11 @@ C:/Users/GA3/Documents/GitHub/MyPaz/MyPazPaz
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51133
+53926
 Successfully changed project path to: C:/Users/GA3/Documents/GitHub/MyPaz/MyPazPaz
 C:/Users/GA3/Documents/GitHub/MyPaz/MyPazPaz
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,30 +35,30 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001816 seconds.
+Registered in 0.001759 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 25.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.654 seconds
+- Completed reload, in  2.231 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1654ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (2232ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (341ms)
-			LoadAssemblies (43ms)
+		EndReloadAssembly (342ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
+			RebuildScriptCaches (27ms)
 			SetupLoadedEditorAssemblies (129ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
@@ -66,86 +66,86 @@ Domain Reload Profiling:
 				RefreshPlugins (25ms)
 				BeforeProcessingInitializeOnLoad (14ms)
 				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002639 seconds.
+Registered in 0.002988 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000199F68D6020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000248C3E35890 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F6DA0010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000248C3ED1030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1189910 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000248C293C860 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1337020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000024A7E187010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5D89230 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000248C37925B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5EA2020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000248C320F010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F7252030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000248C37925B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5DA6020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000248C320F010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F6F55010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000248C366DE30 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5F24230 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000248C36D2220 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1337020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000024A7E187010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5DFA020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000248C339C010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F6F69A20 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000024A7E15C9B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5DCC230 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000248C3235220 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.837 seconds
+- Completed reload, in  0.848 seconds
 Domain Reload Profiling:
-	ReloadAssembly (837ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (849ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (663ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (661ms)
 			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
+			SetupTypeCache (223ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (259ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (257ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1449 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.8 MB.
+System memory in use before: 78.9 MB.
 System memory in use after: 78.9 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1901.
-Total: 2.133900 ms (FindLiveObjects: 0.125300 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.903600 ms  DeleteObjects: 0.060700 ms)
+Total: 2.178100 ms (FindLiveObjects: 0.129100 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.942400 ms  DeleteObjects: 0.062500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -160,100 +160,92 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Stage3.unity
-  artifactKey: Guid(35412327caabd8047b356c51932553c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage3.unity using Guid(35412327caabd8047b356c51932553c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ea9af7b12c3410ebb6a151df5a15ba') in 0.014046 seconds 
-  Import took 0.015976 seconds .
+  path: Assets/Scenes/Stage4.unity
+  artifactKey: Guid(bf2c6108d2ae1e2409ebe0c53a7aef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage4.unity using Guid(bf2c6108d2ae1e2409ebe0c53a7aef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3d852f146b6108562781de60b34533') in 0.015914 seconds 
+  Import took 0.018092 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.313320 seconds.
-  path: Assets/Scenes/Stage4.unity
-  artifactKey: Guid(bf2c6108d2ae1e2409ebe0c53a7aef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage4.unity using Guid(bf2c6108d2ae1e2409ebe0c53a7aef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7ccdedd4551715cc10ae7b9d4129ee') in 0.007770 seconds 
-  Import took 0.010498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.784779 seconds.
-  path: Assets/Scenes/Stage4.unity
-  artifactKey: Guid(bf2c6108d2ae1e2409ebe0c53a7aef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage4.unity using Guid(bf2c6108d2ae1e2409ebe0c53a7aef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e9529ce5e7b4814d878e1c0dcdb428') in 0.004425 seconds 
-  Import took 0.008306 seconds .
+  Time since last request: 27.361255 seconds.
+  path: Assets/Scenes/Stage5.unity
+  artifactKey: Guid(d56a60bb03cc3b14c9c1de202dd64a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage5.unity using Guid(d56a60bb03cc3b14c9c1de202dd64a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41a1b56086db760ed0cb630504e290e') in 0.006870 seconds 
+  Import took 0.009174 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002928 seconds.
+Registered in 0.004141 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000199F1252DF0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000248C3E396B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F133B030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000248C753CE40 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F98D3020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000248C7D82C40 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FAC21FD0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000248C458A9B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F98D3020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000248C3EC9020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5DA6020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000248C2C5D020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F98D3020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000248C309EE20 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F9933FE0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000248C292F050 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F98D3020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000248C3EC9020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5F24230 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000248C28A4030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F9159E30 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000248C458A9B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5DA6020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000248C423C020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1B41A20 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000024A7E15C9B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F6F55010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000248C788F040 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
+- Completed reload, in  1.291 seconds
 Domain Reload Profiling:
-	ReloadAssembly (762ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (621ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1045ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
+			SetupTypeCache (386ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (364ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 77.3 MB.
 System memory in use after: 77.4 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1903.
-Total: 2.120700 ms (FindLiveObjects: 0.123700 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.944100 ms  DeleteObjects: 0.011000 ms)
+Total: 3.275400 ms (FindLiveObjects: 0.173800 ms CreateObjectMapping: 0.062100 ms MarkObjects: 3.019900 ms  DeleteObjects: 0.017900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -268,85 +260,85 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4056.839561 seconds.
-  path: Assets/Scenes/Script/GameManager.cs
-  artifactKey: Guid(63c854e93d66d39449319f1575b4cc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Script/GameManager.cs using Guid(63c854e93d66d39449319f1575b4cc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98eb7332ae7e58fd87cc25281219f505') in 0.027680 seconds 
-  Import took 0.029900 seconds .
+  Time since last request: 5197.211824 seconds.
+  path: Assets/Scenes/Stage5.unity
+  artifactKey: Guid(d56a60bb03cc3b14c9c1de202dd64a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage5.unity using Guid(d56a60bb03cc3b14c9c1de202dd64a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1046541f1d6b6a0fdea547530d7bd1') in 0.015559 seconds 
+  Import took 0.018393 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004120 seconds.
+Registered in 0.003809 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000199F170BBF0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000248C8053F00 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F9423030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000024A7E1A4430 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FABB1190 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000248C8043C00 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F7C4C010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000248C809D0E0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FAC21FD0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000248C9FE9020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5B71A20 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000248C339C010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F98D3020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000248C80162C0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5F4A020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000248C292F050 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FABC31B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000248C9FE9020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F99F7C50 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000248C6EA8020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F7C4C010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000248C809D0E0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F15BEC80 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000248C423C020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1A2D070 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000248C850F450 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F6F55010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000248C7225380 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.255 seconds
+- Completed reload, in  1.164 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1256ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1164ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1037ms)
-			LoadAssemblies (117ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (952ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (353ms)
+			SetupTypeCache (327ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (387ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (264ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 77.3 MB.
 System memory in use after: 77.4 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1905.
-Total: 3.331900 ms (FindLiveObjects: 0.185200 ms CreateObjectMapping: 0.064900 ms MarkObjects: 3.062800 ms  DeleteObjects: 0.017900 ms)
+Total: 3.012400 ms (FindLiveObjects: 0.168700 ms CreateObjectMapping: 0.058500 ms MarkObjects: 2.769200 ms  DeleteObjects: 0.014900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -362,76 +354,76 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003828 seconds.
+Registered in 0.004191 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000019A1D358320 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000248C755AB40 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1023480 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000248C755AB40 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5DA6020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000248C8043C00 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1337020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000248C705E020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1AE14030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000248C7E58630 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1B0BBF20 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000248C7FCBF50 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5DA6020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000248C80162C0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1D443100 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000248C36A4010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1AE14030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000248C7E58630 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F99B7D90 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000248C7E26A60 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1C1D7160 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000248C705E020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1C4AF020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000248C31CB030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1C1D7160 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000248C458A9B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1B088010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000248C32C9020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.084 seconds
+- Completed reload, in  1.282 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1085ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (1282ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (881ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (360ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (327ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (384ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (220ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (259ms)
 				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 77.3 MB.
 System memory in use after: 77.5 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1907.
-Total: 2.770800 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.539700 ms  DeleteObjects: 0.018500 ms)
+Total: 3.367100 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.057700 ms MarkObjects: 3.130400 ms  DeleteObjects: 0.019000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -446,71 +438,156 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 348.444201 seconds.
-  path: Assets/Scenes/Prefabs/Stage4.prefab
-  artifactKey: Guid(c7fcef12ab2240842ae63300a82822e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Prefabs/Stage4.prefab using Guid(c7fcef12ab2240842ae63300a82822e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1c2687c3183768bf22d6a7b50d1634') in 0.105388 seconds 
-  Import took 0.108198 seconds .
+  Time since last request: 2018.528751 seconds.
+  path: Assets/Scenes/Stage5.unity
+  artifactKey: Guid(d56a60bb03cc3b14c9c1de202dd64a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage5.unity using Guid(d56a60bb03cc3b14c9c1de202dd64a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4789d56eb89934499c9d6a82106e1d') in 0.018350 seconds 
+  Import took 0.021507 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002849 seconds.
+Registered in 0.003174 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000199F9E57030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000248C8053F00 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1BD8EC80 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000248C8519970 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5DA6020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000248C7C06F40 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F8D45010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000248C705E020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F99C85B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000248C36DA230 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1CCEFFB0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000248C8718770 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FA8BA010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000248C8524810 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1C43D010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000248C292F050 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F99C85B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000248C36DA230 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F99F7C50 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000248C9562E60 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1CE95030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000248C980BCB0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F7722010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000248C8192020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F8DD1C70 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000248C7F11020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FA1E2060 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000248C7225380 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.767 seconds
+- Completed reload, in  1.432 seconds
 Domain Reload Profiling:
-	ReloadAssembly (767ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (1433ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1183ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (440ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.4 MB.
+System memory in use after: 77.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 4.871900 ms (FindLiveObjects: 0.273000 ms CreateObjectMapping: 0.087300 ms MarkObjects: 4.487100 ms  DeleteObjects: 0.022400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  requireTextureImportCompression: false -> true
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002820 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000248C8519970 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C8519970 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C967F040 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A7EA49020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C7550D10 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A7E44EF70 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C8524810 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C7241DD0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C7550D10 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C88ADC80 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C980BCB0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C7F84310 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000024A7E945020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000248C7225380 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (610ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (223ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (152ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (159ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -520,11 +597,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
+System memory in use before: 77.4 MB.
+System memory in use after: 77.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1917.
-Total: 2.117800 ms (FindLiveObjects: 0.122400 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.941300 ms  DeleteObjects: 0.011000 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 2.112800 ms (FindLiveObjects: 0.121900 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.937300 ms  DeleteObjects: 0.011300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -540,64 +617,64 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003990 seconds.
+Registered in 0.002491 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000199F170BBF0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000248C80200F0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1BD8EC80 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000248C80200F0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FAC328C0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000248C8573020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F8D45010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000248C2AF7030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F5B65020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000248C8134EB0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1CCEFFB0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000248C981BFB0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1AE14030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000248C7D94010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FA50A7F0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000248C36A4010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F99C85B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000248C8134EB0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F9097030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000248C6EA8020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1B589020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000248C2AF7030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F7722010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000248C7F84310 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F8DD1C70 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000248C733F040 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1C0FC560 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000248C8936140 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
+- Completed reload, in  0.776 seconds
 Domain Reload Profiling:
-	ReloadAssembly (810ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (651ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (626ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
+			SetupTypeCache (216ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (242ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (234ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -605,11 +682,11 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
+System memory in use before: 77.4 MB.
+System memory in use after: 77.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1919.
-Total: 2.321300 ms (FindLiveObjects: 0.138800 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.122900 ms  DeleteObjects: 0.014300 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 2.145200 ms (FindLiveObjects: 0.126500 ms CreateObjectMapping: 0.050900 ms MarkObjects: 1.955300 ms  DeleteObjects: 0.011300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -625,161 +702,76 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002894 seconds.
+Registered in 0.003374 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000199F9E57030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000248C755AB40 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1BD8EC80 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000248C755AB40 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FA4CF020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000248C88EE0F0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F8D45010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000248C705E020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F98D3020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000248C8573020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F9269FE0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000248C9B71810 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1AE14030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000248C88EE0F0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FA3086B0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000248C3651020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F98D3020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000248C8573020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FA0C07A0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000248C6EA8020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1B589020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000248C705E020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F15BEC80 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000248CB4AF020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1D641010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000024A7E187010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F7947F50 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000248C92FC010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.989 seconds
 Domain Reload Profiling:
-	ReloadAssembly (834ms)
-		BeginReloadAssembly (96ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (682ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (251ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1921.
-Total: 2.338000 ms (FindLiveObjects: 0.128100 ms CreateObjectMapping: 0.043900 ms MarkObjects: 2.152600 ms  DeleteObjects: 0.012600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002974 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000199F5AE0CA0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1023480 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1C4BF040 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1337020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F9387030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FA84DFE0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1AE14030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1D3DE020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F9387030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F9097030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F1337020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199FA4AF010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019A1D641010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000199F7722010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.853 seconds
-Domain Reload Profiling:
-	ReloadAssembly (853ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (686ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
+			SetupTypeCache (294ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (285ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (169ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (193ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
+System memory in use before: 77.4 MB.
+System memory in use after: 77.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1923.
-Total: 2.393300 ms (FindLiveObjects: 0.144800 ms CreateObjectMapping: 0.048000 ms MarkObjects: 2.183900 ms  DeleteObjects: 0.015400 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1915.
+Total: 2.649800 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.045100 ms MarkObjects: 2.446500 ms  DeleteObjects: 0.013200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   requireTextureImportCompression: false -> true
@@ -792,4 +784,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4246.714980 seconds.
+  path: Assets/Scenes/Prefabs/Stage5.prefab
+  artifactKey: Guid(f918293ed86e41e4d840b786c8763ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Prefabs/Stage5.prefab using Guid(f918293ed86e41e4d840b786c8763ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c3bed261262d8857244a8e8f239de7') in 0.124565 seconds 
+  Import took 0.127423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.144223 seconds.
+  path: Assets/Scenes/Stage5.unity
+  artifactKey: Guid(d56a60bb03cc3b14c9c1de202dd64a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage5.unity using Guid(d56a60bb03cc3b14c9c1de202dd64a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa20d63dd4d88bf35ea1a4ebab78214a') in 0.008870 seconds 
+  Import took 0.011983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.139945 seconds.
+  path: Assets/Scenes/Stage6.unity
+  artifactKey: Guid(6552dcd39645a7b4bae26fbce30bf15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stage6.unity using Guid(6552dcd39645a7b4bae26fbce30bf15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fa28ec0727ff881e40075f775793a5') in 0.008188 seconds 
+  Import took 0.010958 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
