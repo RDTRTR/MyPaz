@@ -8127,6 +8127,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7408689853535826544, guid: 2bfab04c0a651de4bbe9bff078f1c54d, type: 3}
+      propertyPath: Priority
+      value: 154
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408689853535826544, guid: 2bfab04c0a651de4bbe9bff078f1c54d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7408689853535826545, guid: 2bfab04c0a651de4bbe9bff078f1c54d, type: 3}
       propertyPath: m_Name
       value: PlaySound
@@ -8174,6 +8182,22 @@ PrefabInstance:
     - target: {fileID: 7408689853535826546, guid: 2bfab04c0a651de4bbe9bff078f1c54d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408689853535826557, guid: 2bfab04c0a651de4bbe9bff078f1c54d, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408689853535826557, guid: 2bfab04c0a651de4bbe9bff078f1c54d, type: 3}
+      propertyPath: m_Volume
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408689853535826557, guid: 2bfab04c0a651de4bbe9bff078f1c54d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a806c03373eed5a4ca5c8913349df6e9, type: 3}
+    - target: {fileID: 7408689853535826557, guid: 2bfab04c0a651de4bbe9bff078f1c54d, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bfab04c0a651de4bbe9bff078f1c54d, type: 3}
