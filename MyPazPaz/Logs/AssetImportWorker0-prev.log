@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.1466; Version 2009; 64bit' Language: 'ja' Physical Memory: 16205 MB
+OS: 'Windows 10 Home; OS build 19044.1466; Version 2009; 64bit' Language: 'ja' Physical Memory: 15789 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,453 +11,320 @@ C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/GA3/Documents/GitHub/MyPaz/MyPazPaz
+C:/Users/PC_User/Documents/GitHub/MyPaz/MyPazPaz
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59199
-Successfully changed project path to: C:/Users/GA3/Documents/GitHub/MyPaz/MyPazPaz
-C:/Users/GA3/Documents/GitHub/MyPaz/MyPazPaz
+50783
+Successfully changed project path to: C:/Users/PC_User/Documents/GitHub/MyPaz/MyPazPaz
+C:/Users/PC_User/Documents/GitHub/MyPaz/MyPazPaz
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/GA3/Documents/GitHub/MyPaz/MyPazPaz/Assets
+[Subsystems] Discovering subsystems at path C:/Users/PC_User/Documents/GitHub/MyPaz/MyPazPaz/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
     Vendor:   
-    VRAM:     6023 MB
-    Driver:   30.0.14.9649
+    VRAM:     5980 MB
+    Driver:   30.0.14.9676
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001963 seconds.
+Registered in 0.001644 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.777 seconds
+- Completed reload, in  0.928 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1777ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (929ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (365ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (137ms)
+			SetupTypeCache (129ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
+			RebuildScriptCaches (31ms)
 			SetupLoadedEditorAssemblies (139ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (27ms)
+				RefreshPlugins (28ms)
 				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003390 seconds.
+Registered in 0.002345 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021A07F1D040 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A07F1D040 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C08A020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0CAE1460 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A07AED2F0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C53C010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A07B0C700 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C53C010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A07B14710 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C41A220 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0CF1DE20 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C332010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0CF1DE20 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C590010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.908 seconds
+- Completed reload, in  0.877 seconds
 Domain Reload Profiling:
-	ReloadAssembly (909ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (723ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (692ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (235ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (279ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (190ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (184ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1449 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.9 MB.
-System memory in use after: 78.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1901.
-Total: 2.421200 ms (FindLiveObjects: 0.171600 ms CreateObjectMapping: 0.055900 ms MarkObjects: 2.115100 ms  DeleteObjects: 0.077700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Stage6.unity
-  artifactKey: Guid(6552dcd39645a7b4bae26fbce30bf15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage6.unity using Guid(6552dcd39645a7b4bae26fbce30bf15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416c416a3f49fac033a4ed0b7c0d3410') in 0.011604 seconds 
-  Import took 0.013857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.671831 seconds.
-  path: Assets/Scenes/Prefabs/Stage6.prefab
-  artifactKey: Guid(1e90b3a5a26cf8f4b8663e8925566b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Prefabs/Stage6.prefab using Guid(1e90b3a5a26cf8f4b8663e8925566b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5549ca82af9c793c98c122ddd397e1e6') in 0.118196 seconds 
-  Import took 0.121130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.576203 seconds.
-  path: Assets/Scenes/Prefabs/Temp.prefab
-  artifactKey: Guid(1e90b3a5a26cf8f4b8663e8925566b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Prefabs/Temp.prefab using Guid(1e90b3a5a26cf8f4b8663e8925566b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75535d944106700a4a1facb71ae7da8a') in 0.015959 seconds 
-  Import took 0.019005 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002707 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021A0D520880 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C429820 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C0BE050 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A112FF000 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A07D80C40 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C332010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C0BE050 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C08A020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A07E97F70 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0D9E7400 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C16B020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A1003EE60 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A07B1C720 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A115DCB30 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
-Domain Reload Profiling:
-	ReloadAssembly (845ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (681ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (256ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.4 MB.
-System memory in use after: 80.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1911.
-Total: 2.149800 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.961200 ms  DeleteObjects: 0.013200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002878 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021820006ED0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0CA0EE40 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0E1AB010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A10675010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0F32BD10 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C78A030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0E1AB010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A115CCB20 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0F32BD10 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A11799D80 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A115F2D30 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C590010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A115F2D30 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A11D47020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
-Domain Reload Profiling:
-	ReloadAssembly (902ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (735ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (267ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1913.
-Total: 2.599500 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.047100 ms MarkObjects: 2.400200 ms  DeleteObjects: 0.016700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 377.044805 seconds.
-  path: Assets/Scenes/Stage6
-  artifactKey: Guid(357d90f46141c5c44bc4f30bcddc3dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage6 using Guid(357d90f46141c5c44bc4f30bcddc3dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6619699e51865801bb5ba3bf7bec57') in 0.005986 seconds 
-  Import took 0.009071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.064001 seconds.
-  path: Assets/Scenes/Stage6/LightingData.asset
-  artifactKey: Guid(70ea7c32a8969754c8b4b9e015733826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage6/LightingData.asset using Guid(70ea7c32a8969754c8b4b9e015733826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8c302f1268e8e27973c1bce1af7ede') in 0.022446 seconds 
-  Import took 0.025452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Scenes/Stage6/ReflectionProbe-0.exr
-  artifactKey: Guid(61483181622b097409683561feb181ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Stage6/ReflectionProbe-0.exr using Guid(61483181622b097409683561feb181ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d08bf90f64e78785f508e6d13187081') in 0.078051 seconds 
-  Import took 0.081044 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002557 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021A07947030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A32E20DE0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0F2FA010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002181FFF6460 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A10FF7210 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A33DA7010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A107F9D80 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A1104C010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A07E97F70 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A117BDDA0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002181FFFCEC0 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0C08A020 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0CCCC030 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021A0F31C010 doesn't match image C:\Users\GA3\Documents\GitHub\MyPaz\MyPazPaz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.795 seconds
-Domain Reload Profiling:
-	ReloadAssembly (795ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (636ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (225ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (226ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1429 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.7 MB.
-System memory in use after: 80.8 MB.
+Unloading 1449 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.9 MB.
+System memory in use after: 79.0 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1941.
-Total: 2.229800 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.045300 ms MarkObjects: 2.043600 ms  DeleteObjects: 0.011600 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 4.104000 ms (FindLiveObjects: 0.261400 ms CreateObjectMapping: 0.037400 ms MarkObjects: 3.711700 ms  DeleteObjects: 0.090900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  requireTextureImportCompression: false -> true
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Count.cs
+  artifactKey: Guid(cd985a5118d7a3e4290d6121cdd489c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Count.cs using Guid(cd985a5118d7a3e4290d6121cdd489c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337d9c275e7154385092bf7603bb6e28') in 0.041078 seconds 
+  Import took 0.044199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/SoundPlay.cs
+  artifactKey: Guid(085e445f98f45024b959109baa608fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundPlay.cs using Guid(085e445f98f45024b959109baa608fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89893580f18a2af940607b0b94c62c6') in 0.006514 seconds 
+  Import took 0.009061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/StageSelect.cs
+  artifactKey: Guid(80f6dfd7b4fd8634998c6f5729364f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSelect.cs using Guid(80f6dfd7b4fd8634998c6f5729364f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6521baaa81f6a8ca0c6b1265ecff215f') in 0.006732 seconds 
+  Import took 0.009046 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.1 MB.
+System memory in use after: 49.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 2.778400 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.029800 ms MarkObjects: 2.576000 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.628152 seconds.
+  path: Assets/script
+  artifactKey: Guid(5ad3603925564d14ba58b8ce7b5ff19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script using Guid(5ad3603925564d14ba58b8ce7b5ff19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335cc168f8f1d91dbb7f4f7ee58f1516') in 0.009397 seconds 
+  Import took 0.012091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.557344 seconds.
+  path: Assets/TextMeshProMaxVisibleCharaController.cs
+  artifactKey: Guid(1178e4279b7ce3e41bc9c7df6266efe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMeshProMaxVisibleCharaController.cs using Guid(1178e4279b7ce3e41bc9c7df6266efe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba729d7c7d98fcbe961fdf4efcd2ef6') in 0.007679 seconds 
+  Import took 0.010498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.479569 seconds.
+  path: Assets/Title(select)
+  artifactKey: Guid(d128a77107083e245a2ec7795e46e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Title(select) using Guid(d128a77107083e245a2ec7795e46e293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f376776d7791d49e9de91fe8e80f1bd') in 0.006258 seconds 
+  Import took 0.008695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.432852 seconds.
+  path: Assets/Tile3D
+  artifactKey: Guid(900f428caa9f5d14884af86f23267075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile3D using Guid(900f428caa9f5d14884af86f23267075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf25af1920e889922b9c2b87dcd351c') in 0.007265 seconds 
+  Import took 0.009468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.399962 seconds.
+  path: Assets/Tile3D/TestTiles.png
+  artifactKey: Guid(6199c283ed7b43e42bf2ce9d87bdc414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile3D/TestTiles.png using Guid(6199c283ed7b43e42bf2ce9d87bdc414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1c84b870385a7e0ad98c197049ce27') in 0.093084 seconds 
+  Import took 0.095570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.299774 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6170b652e791f28e2dae01803c8e71bf') in 0.006584 seconds 
+  Import took 0.009186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.337842 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faf723a4c8ca9b5a0e0800b705e0e5f') in 0.006441 seconds 
+  Import took 0.008818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.979001 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cee1b573425f8b706180e9a6dbf5c9') in 0.006887 seconds 
+  Import took 0.009757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046509 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15770c780ebad2127a7dba05b3837a4c') in 0.021017 seconds 
+  Import took 0.023487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.558436 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1615d532dab169fd406a25610c85d83') in 0.006749 seconds 
+  Import took 0.008939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.194925 seconds.
+  path: Assets/script/GamesystemT.cs
+  artifactKey: Guid(b9854a9bc73c09c41bf4648e17ffe6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/GamesystemT.cs using Guid(b9854a9bc73c09c41bf4648e17ffe6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2560de5481f24fa90bde88c0adef17e') in 0.006641 seconds 
+  Import took 0.010074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.457499 seconds.
+  path: Assets/script/CameraMove2.cs
+  artifactKey: Guid(3dbc650cea08308438f3cc84c63f87b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/CameraMove2.cs using Guid(3dbc650cea08308438f3cc84c63f87b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45127ebc1455a80582e54fd47c81127') in 0.005998 seconds 
+  Import took 0.008654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.856622 seconds.
+  path: Assets/script/RotateSE.cs
+  artifactKey: Guid(1b1f2a401ff7cfd43a6e5baace18c37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/RotateSE.cs using Guid(1b1f2a401ff7cfd43a6e5baace18c37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3c1fba8c9cd6979aba8fc5b07e227f') in 0.006015 seconds 
+  Import took 0.008551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.060524 seconds.
+  path: Assets/Free Low Poly Desert Pack
+  artifactKey: Guid(f252a95d91b24934290b973c5c2d52a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Desert Pack using Guid(f252a95d91b24934290b973c5c2d52a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ce6751dc2f3bca6dfe7db04d45d350') in 0.008109 seconds 
+  Import took 0.010283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617222 seconds.
+  path: Assets/Font
+  artifactKey: Guid(e965ef5fd7618584b83b8e98b9d531e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font using Guid(e965ef5fd7618584b83b8e98b9d531e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f208fc4c48740e0fe94cd6384de863') in 0.008245 seconds 
+  Import took 0.010814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.860282 seconds.
+  path: Assets/Lowpoly Style
+  artifactKey: Guid(bed95834f988f084cac9da4d1cd12fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style using Guid(bed95834f988f084cac9da4d1cd12fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9b58245851988a98cd44c630af1cb7') in 0.006160 seconds 
+  Import took 0.008589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.041891 seconds.
+  path: Assets/Lowpoly Style/Free Rocks and Plants
+  artifactKey: Guid(a81f52e38bfe8bf42995db1b6027a6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Style/Free Rocks and Plants using Guid(a81f52e38bfe8bf42995db1b6027a6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf2420a8401d8dddda10e7db08d6df4') in 0.006191 seconds 
+  Import took 0.008534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.396959 seconds.
+  path: Assets/script/PlaySound.cs
+  artifactKey: Guid(cca62c4b64e09e343bc150f7c4db0922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/PlaySound.cs using Guid(cca62c4b64e09e343bc150f7c4db0922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1c0d0b6e9b5211d4adfb2b9798649f') in 0.005851 seconds 
+  Import took 0.008561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329918 seconds.
+  path: Assets/script/PlaySE1.cs
+  artifactKey: Guid(e6e667a5e72e1fc4091ea5ef8edf0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script/PlaySE1.cs using Guid(e6e667a5e72e1fc4091ea5ef8edf0f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c467b5e15c4ee62e794f464e5aeef1') in 0.006241 seconds 
+  Import took 0.008869 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
