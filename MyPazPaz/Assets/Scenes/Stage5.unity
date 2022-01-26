@@ -2031,6 +2031,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1371672887985056082, guid: f918293ed86e41e4d840b786c8763ffc, type: 3}
+      propertyPath: m_Name
+      value: Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1371672887985056092, guid: f918293ed86e41e4d840b786c8763ffc, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea88e0d205707734d993ca22021c79e1, type: 2}
     - target: {fileID: 6009487761908053028, guid: f918293ed86e41e4d840b786c8763ffc, type: 3}
       propertyPath: m_Name
       value: Stage5
