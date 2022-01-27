@@ -4,15 +4,15 @@ OS: 'Windows 10 Home; OS build 19044.1466; Version 2009; 64bit' Language: 'ja' P
 received signal from system: SIGSEGV
 Stack trace:
 RtlLookupFunctionEntry returned NULL function. Aborting stack walk.
-0x00007ff7457778dc (Unity) StackWalker::GetCurrentCallstack
-0x00007ff74577ff79 (Unity) StackWalker::ShowCallstack
-0x00007ff746ca3ddc (Unity) GetStacktrace
-0x00007ff745776f44 (Unity) winutils::CrashHandler::DefaultSignalHandler
-0x00007ff748b5be72 (Unity) seh_filter_exe
-0x00007ff748f307a9 (Unity) `__scrt_common_main_seh'::`1'::filt$0
-0x00007ff748b29a58 (Unity) _C_specific_handler
-0x00007ff86ac720cf (ntdll) _chkstk
-0x00007ff86ac21454 (ntdll) RtlRaiseException
-0x00007ff86ac70bfe (ntdll) KiUserExceptionDispatcher
+0x00007ff7223678dc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff72236ff79 (Unity) StackWalker::ShowCallstack
+0x00007ff723893ddc (Unity) GetStacktrace
+0x00007ff722366f44 (Unity) winutils::CrashHandler::DefaultSignalHandler
+0x00007ff72574be72 (Unity) seh_filter_exe
+0x00007ff725b207a9 (Unity) `__scrt_common_main_seh'::`1'::filt$0
+0x00007ff725719a58 (Unity) _C_specific_handler
+0x00007ffc012f20cf (ntdll) _chkstk
+0x00007ffc012a1454 (ntdll) RtlRaiseException
+0x00007ffc012f0bfe (ntdll) KiUserExceptionDispatcher
 <Missing stacktrace information>
 
