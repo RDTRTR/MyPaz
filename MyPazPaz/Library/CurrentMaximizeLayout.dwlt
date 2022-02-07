@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 3502
+  controlID: 1927
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,7 +94,7 @@ MonoBehaviour:
       y: 21
       width: 1050
       height: 405.2
-    m_Scale: {x: 1.092727, y: 1.092727}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 525, y: 202.6}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -102,10 +102,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -480.4494
-      y: -185.40771
-      width: 960.8988
-      height: 370.81543
+      x: -525
+      y: -202.6
+      width: 1050
+      height: 405.2
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1312.5, y: 532.75}
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 3503
+  controlID: 1928
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 3504
+  controlID: 1929
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -217,10 +217,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 214.79999}
+      scrollPos: {x: 0, y: 155}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7268ffff9268ffff546bffff9070ffffe477ffffe877ffff9278ffff4286ffff828bffff768cffff988cffffa48effffe093ffff209bffff249bffffca9bffff94a5ffff42a6ffff62a6ffff24a9ffff60aeffffb4b5ffff02bdffff06bdffff20f3ffff52fbffff745f00002c600000b68100006e82000094a5000018a90000
+      m_ExpandedIDs: 5ef0ffff6cf2ffffd6f2ffff52fbffffb23d0000184200009843000050440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -432,8 +432,8 @@ MonoBehaviour:
     y: 447.2
     width: 1256.8
     height: 283.8
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -478,21 +478,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scenes/Stageselect
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scenes/Stageselect
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\PC_User\Documents\GitHub\MyPaz\MyPazPaz
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 78410000
-    m_LastClickedID: 16760
+    scrollPos: {x: 0, y: 253.20001}
+    m_SelectedIDs: ce410000
+    m_LastClickedID: 16846
     m_ExpandedIDs: 000000007241000074410000764100007841000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -549,7 +549,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000be70000000000000a86700008e450000
+    m_ExpandedInstanceIDs: c6230000be70000000000000a86700008e4500005a3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
